@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24d2161e-2f62-4dff-b07f-58d814d5ed84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
@@ -151,13 +148,6 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/financial_eureka/financial_eureka.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/financial_eureka/src/main/java/com/one/eureka/lei2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/financial_parent.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -428,10 +418,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="477" />
-    <option name="y" value="76" />
+    <option name="x" value="347" />
+    <option name="y" value="105" />
     <option name="width" value="1590" />
-    <option name="height" value="925" />
+    <option name="height" value="915" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -550,7 +540,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="212" y="62" width="1272" height="740" extended-state="0" />
+    <frame x="382" y="61" width="1272" height="740" extended-state="0" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -613,6 +603,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="233333" />
+    <option name="LAST_COMMIT_MESSAGE" value="233333" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/financial_eureka/pom.xml">
