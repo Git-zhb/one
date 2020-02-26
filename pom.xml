@@ -9,6 +9,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>financial_eureka</module>
+        <module>financial_user</module>
+        <module>financial_invest</module>
+        <module>financial_bond</module>
     </modules>
 
     <packaging>pom</packaging>
