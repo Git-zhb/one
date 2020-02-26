@@ -6,17 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="financial_bond" />
+        <module name="financial_user" />
+        <module name="financial_invest" />
         <module name="financial_eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="financial_bond" target="1.8" />
       <module name="financial_eureka" target="1.8" />
+      <module name="financial_invest" target="1.8" />
       <module name="financial_parent" target="1.8" />
+      <module name="financial_user" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="financial_bond" options="-parameters" />
       <module name="financial_eureka" options="-parameters" />
+      <module name="financial_invest" options="-parameters" />
+      <module name="financial_user" options="-parameters" />
     </option>
   </component>
 </project>

@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/financial_bond/financial_bond.iml" filepath="$PROJECT_DIR$/financial_bond/financial_bond.iml" />
       <module fileurl="file://$PROJECT_DIR$/financial_eureka/financial_eureka.iml" filepath="$PROJECT_DIR$/financial_eureka/financial_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/financial_invest/financial_invest.iml" filepath="$PROJECT_DIR$/financial_invest/financial_invest.iml" />
       <module fileurl="file://$PROJECT_DIR$/financial_parent.iml" filepath="$PROJECT_DIR$/financial_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/financial_user/financial_user.iml" filepath="$PROJECT_DIR$/financial_user/financial_user.iml" />
     </modules>
   </component>
 </project>
