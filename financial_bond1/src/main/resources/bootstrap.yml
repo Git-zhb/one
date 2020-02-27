@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: bond1-server
+#  cloud:
+#    nacos:
+#      config:
+#        server-addr: 127.0.0.1:8848
+#        namespace: ac879402-d66c-44ed-a0f3-1ed889fdea6b
+#        group: dev
+#        file-extension: yml

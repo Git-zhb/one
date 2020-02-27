@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.one.financial.financial.dao.FundingNotMatchedDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.one.financial.financial.entity.FundingNotMatchedEntity" id="fundingNotMatchedMap">
+        <result property="id" column="id"/>
+        <result property="fInvestRecordId" column="f_invest_record_id"/>
+        <result property="fNotMatchedMoney" column="f_not_matched_money"/>
+        <result property="fFoundingType" column="f_founding_type"/>
+        <result property="fFoundingWeight" column="f_founding_weight"/>
+        <result property="fIsLocked" column="f_is_locked"/>
+        <result property="fCreateDate" column="f_create_date"/>
+    </resultMap>
+
+
+</mapper>

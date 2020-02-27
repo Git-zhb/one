@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.one.financial.financial.dao.MatchedResultDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.one.financial.financial.entity.MatchedResultEntity" id="matchedResultMap">
+        <result property="id" column="id"/>
+        <result property="userId" column="user_id"/>
+        <result property="debtId" column="debt_id"/>
+        <result property="investId" column="invest_id"/>
+        <result property="transferSerialNo" column="transfer_serial_no"/>
+        <result property="purchaseMoney" column="purchase_money"/>
+        <result property="confirmedDate" column="confirmed_date"/>
+        <result property="isConfirmed" column="is_confirmed"/>
+        <result property="matchDate" column="match_date"/>
+        <result property="fundType" column="fund_type"/>
+        <result property="debtType" column="debt_type"/>
+        <result property="isExecuted" column="is_executed"/>
+    </resultMap>
+
+
+</mapper>

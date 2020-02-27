@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.one.financial.financial.dao.AccountLogDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.one.financial.financial.entity.AccountLogEntity" id="accountLogMap">
+        <result property="id" column="id"/>
+        <result property="aUserId" column="a_user_id"/>
+        <result property="aMainAccountId" column="a_main_account_id"/>
+        <result property="pId" column="p_id"/>
+        <result property="aCurrentPeriod" column="a_current_period"/>
+        <result property="aReceiveOrPay" column="a_receive_or_pay"/>
+        <result property="aTransferSerialNo" column="a_transfer_serial_no"/>
+        <result property="aDate" column="a_date"/>
+        <result property="aType" column="a_type"/>
+        <result property="aTransferStatus" column="a_transfer_status"/>
+        <result property="aBeforeTradingMoney" column="a_before_trading_money"/>
+        <result property="aAmount" column="a_amount"/>
+        <result property="aAfterTradingMoney" column="a_after_trading_money"/>
+        <result property="aDescreption" column="a_descreption"/>
+    </resultMap>
+
+
+</mapper>

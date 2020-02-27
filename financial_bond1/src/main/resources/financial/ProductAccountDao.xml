@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.one.financial.financial.dao.ProductAccountDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.one.financial.financial.entity.ProductAccountEntity" id="productAccountMap">
+        <result property="pId" column="p_id"/>
+        <result property="pProductId" column="p_product_id"/>
+        <result property="pUid" column="p_uid"/>
+        <result property="pSerialNo" column="p_serial_no"/>
+        <result property="pBeginDate" column="p_begin_date"/>
+        <result property="pEndDate" column="p_end_date"/>
+        <result property="pRedeemDate" column="p_redeem_date"/>
+        <result property="pMatchDate" column="p_match_date"/>
+        <result property="pAmount" column="p_amount"/>
+        <result property="pDate" column="p_date"/>
+        <result property="pProductType" column="p_product_type"/>
+        <result property="pEarningsType" column="p_earnings_type"/>
+        <result property="pEarnings" column="p_earnings"/>
+        <result property="pAdvanceRedemption" column="p_advance_redemption"/>
+        <result property="pDeadline" column="p_deadline"/>
+        <result property="aCurrentPeriod" column="a_current_period"/>
+        <result property="pProspectiveEarnings" column="p_prospective_earnings"/>
+        <result property="pExpectedAnnualIncome" column="p_expected_annual_income"/>
+        <result property="pMonthInterest" column="p_month_interest"/>
+        <result property="pMonthlyExtractInterest" column="p_monthly_extract_interest"/>
+        <result property="pInterestStartDate" column="p_interest_start_date"/>
+        <result property="pInterestEndDate" column="p_interest_end_date"/>
+        <result property="pEarningsIsFinished" column="p_earnings_is_finished"/>
+        <result property="pAvailableBalance" column="p_available_balance"/>
+        <result property="pFrozenMoney" column="p_frozen_money"/>
+        <result property="pSystemPaymentDate" column="p_system_payment_date"/>
+        <result property="pCurrentMonth" column="p_current_month"/>
+        <result property="pDeductInterest" column="p_deduct_interest"/>
+        <result property="pNotInvestMoney" column="p_not_invest_money"/>
+        <result property="pStatus" column="p_status"/>
+        <result property="pEndInvestTotalMoney" column="p_end_invest_total_money"/>
+        <result property="pCurrentRealTotalMoney" column="p_current_real_total_money"/>
+        <result property="pDeadlineCount" column="p_deadline_count"/>
+        <result property="pProductName" column="p_product_name"/>
+        <result property="pMonthlyDeposit" column="p_monthly_deposit"/>
+        <result property="pMonthlyDepositCount" column="p_monthly_deposit_count"/>
+        <result property="pTakeMonth" column="p_take_month"/>
+        <result property="pTakeMonthCount" column="p_take_month_count"/>
+        <result property="pMayTake" column="p_may_take"/>
+        <result property="pMayTakeCount" column="p_may_take_count"/>
+        <result property="pTotalAsDay" column="p_total_as_day"/>
+        <result property="pDeadlineAsDay" column="p_deadline_as_day"/>
+        <result property="pDeadlines" column="p_deadlines"/>
+        <result property="username" column="username"/>
+        <result property="pEarnedInterest" column="p_earned_interest"/>
+        <result property="pRemark" column="p_remark"/>
+        <result property="sumAvailableBalanceAndFrozenMoney" column="sum_available_balance_and_frozen_money"/>
+        <result property="pTotal" column="p_total"/>
+    </resultMap>
+
+
+</mapper>

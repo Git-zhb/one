@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.one.financial.financial.dao.ClaimsTransferDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.one.financial.financial.entity.ClaimsTransferEntity" id="claimsTransferMap">
+        <result property="id" column="id"/>
+        <result property="debtId" column="debt_id"/>
+        <result property="transferSerialNo" column="transfer_serial_no"/>
+        <result property="debtOwner" column="debt_owner"/>
+        <result property="debtType" column="debt_type"/>
+        <result property="transferDate" column="transfer_date"/>
+        <result property="debtWeight" column="debt_weight"/>
+        <result property="debtMoney" column="debt_money"/>
+        <result property="auditStatus" column="audit_status"/>
+        <result property="isLocked" column="is_locked"/>
+    </resultMap>
+
+
+</mapper>

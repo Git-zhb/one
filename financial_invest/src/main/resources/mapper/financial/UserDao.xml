@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.one.financial.financial.dao.UserDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.one.financial.financial.entity.UserEntity" id="userMap">
+        <result property="id" column="id"/>
+        <result property="email" column="email"/>
+        <result property="emailStatus" column="email_status"/>
+        <result property="userId" column="user_id"/>
+        <result property="inviteid" column="inviteid"/>
+        <result property="ip" column="ip"/>
+        <result property="loginTime" column="login_time"/>
+        <result property="onlock" column="onlock"/>
+        <result property="password" column="password"/>
+        <result property="payPassword" column="pay_password"/>
+        <result property="payPwdStatus" column="pay_pwd_status"/>
+        <result property="phone" column="phone"/>
+        <result property="phoneStatus" column="phone_status"/>
+        <result property="randomCode" column="random_code"/>
+        <result property="realName" column="real_name"/>
+        <result property="realNameStatus" column="real_name_status"/>
+        <result property="registerTime" column="register_time"/>
+        <result property="remark" column="remark"/>
+        <result property="userSecure" column="user_secure"/>
+        <result property="userName" column="user_name"/>
+    </resultMap>
+
+
+</mapper>

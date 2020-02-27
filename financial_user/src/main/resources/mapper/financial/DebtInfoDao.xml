@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.one.financial.financial.dao.DebtInfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.one.financial.financial.entity.DebtInfoEntity" id="debtInfoMap">
+        <result property="id" column="id"/>
+        <result property="debtNo" column="debt_no"/>
+        <result property="contractNo" column="contract_no"/>
+        <result property="debtorsName" column="debtors_name"/>
+        <result property="debtorsId" column="debtors_id"/>
+        <result property="loanPurpose" column="loan_purpose"/>
+        <result property="loanType" column="loan_type"/>
+        <result property="loanStartDate" column="loan_start_date"/>
+        <result property="loanPeriod" column="loan_period"/>
+        <result property="loanEndDate" column="loan_end_date"/>
+        <result property="repaymentStyle" column="repayment_style"/>
+        <result property="repaymenDate" column="repaymen_date"/>
+        <result property="repaymenMoney" column="repaymen_money"/>
+        <result property="debtMoney" column="debt_money"/>
+        <result property="debtYearRate" column="debt_year_rate"/>
+        <result property="debtMonthRate" column="debt_month_rate"/>
+        <result property="debtTransferredMoney" column="debt_transferred_money"/>
+        <result property="debtTransferredDate" column="debt_transferred_date"/>
+        <result property="debtTransferredPeriod" column="debt_transferred_period"/>
+        <result property="debtRansferOutDate" column="debt_ransfer_out_date"/>
+        <result property="creditor" column="creditor"/>
+        <result property="debtStatus" column="debt_status"/>
+        <result property="borrowerId" column="borrower_id"/>
+        <result property="availablePeriod" column="available_period"/>
+        <result property="availableMoney" column="available_money"/>
+        <result property="matchedMoney" column="matched_money"/>
+        <result property="matchedStatus" column="matched_status"/>
+        <result property="repaymentStyleName" column="repayment_style_name"/>
+        <result property="debtStatusName" column="debt_status_name"/>
+        <result property="matchedStatusName" column="matched_status_name"/>
+        <result property="debtType" column="debt_type"/>
+        <result property="debtTypeName" column="debt_type_name"/>
+    </resultMap>
+
+
+</mapper>
